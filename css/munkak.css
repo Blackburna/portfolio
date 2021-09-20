@@ -1,0 +1,98 @@
+h1{
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    cursor: default;
+    text-align: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+h2
+{
+    cursor: default;
+    color: gray;
+    text-align: center;
+    font-size: 80px;
+}
+body
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    justify-content: center;
+    align-self: center;
+    min-height: 100vh;
+    background: #222;
+    width: 100%;
+    background-image: url('../kepek/navbarkep.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: inline;
+    align-items: center;
+}
+.csest
+{
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    margin: 40px;
+    grid-auto-flow: dense;
+}
+button {
+    font: xx-large 11px Helvetica;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+.csest .doboz
+{
+    background: #00ffaa;
+    background-image: url('../kepek/hatterkep.png');
+    padding: 25px;
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+    color: #fff;
+    transition: 0.4s;
+    
+}
+.csest .doboz:hover
+{
+    background: #494949;
+}
+.csest .doboz img
+{
+    position: relative;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.csest .doboz:nth-child(1)
+{
+    grid-column: snap 4;
+    grid-row: snap 1;
+
+    
+}
